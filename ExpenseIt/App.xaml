@@ -1,4 +1,5 @@
-﻿<Application x:Class="ExpenseIt.App"
+﻿<!--This XAML file defines a WPF application and any application resources. You also use this file to specify the UI, in this case MainWindow.xaml,that automatically shows when the application starts. -->
+<Application x:Class="ExpenseIt.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:ExpenseIt"
