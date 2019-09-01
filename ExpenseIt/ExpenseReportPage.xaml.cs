@@ -15,5 +15,11 @@ namespace ExpenseIt
         {
             InitializeComponent();
         }
+        // Custom constructor to pass expense report data
+        public ExpenseReportPage(object data) : this()
+        {
+            //bind to expense report data 
+            DataContext = data;
+        }
     }
 }
